@@ -1,4 +1,4 @@
-# A 2D top-down RPG made in Godot 4.
+# 2D RPG
 
 My first game, made in Godot 4. You move around a 2D world and fight slimes.
 
