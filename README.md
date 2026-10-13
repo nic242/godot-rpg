@@ -1,6 +1,6 @@
-# 2D RPG
+# A 2D top-down RPG made in Godot 4.
 
-A 2D top-down RPG made in Godot 4.
+My first game, made in Godot 4. You move around a 2D world and fight slimes.
 
 **[▶ Play in your browser](https://nicolaschung.itch.io/godot-rpg)**
 
