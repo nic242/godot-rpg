@@ -4,7 +4,9 @@ My first game, made in Godot 4. You move around a 2D world and fight slimes.
 
 **[▶ Play in your browser](https://nicolaschung.itch.io/godot-rpg)**
 
-![Gameplay](https://github.com/nic242/godot-rpg/blob/main/combat.gif)
+![Combat](gameplay/combat.gif)
+![Respawn](gameplay/respawn.gif)
+![Scene transition](gameplay/change_scene.gif)
 
 ## Features
 - Enemy chase AI and melee combat
