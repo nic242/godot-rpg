@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://c5i6xk34togct"]
+
+[ext_resource type="Script" uid="uid://dcmejmnqtmead" path="res://scene/game_over_retry.gd" id="1_bc2bx"]
+[ext_resource type="FontFile" uid="uid://dtwxjk2dw4cyi" path="res://assets/sprites/fonts/ArchitectsDaughter.ttf" id="1_yxx3c"]
+[ext_resource type="Texture2D" uid="uid://c17v5txtd7yfp" path="res://assets/Forest&&Moon Pixel Art/PNG/Layers/BackGround_005.png" id="2_ccer4"]
+
+[node name="game_over" type="Control" unique_id=1359266580]
+layout_mode = 3
+anchors_preset = 0
+offset_left = 576.0
+offset_top = 325.0
+offset_right = 616.0
+offset_bottom = 365.0
+script = ExtResource("1_bc2bx")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=2120673990]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CanvasLayer" unique_id=1047484318]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -208.5
+offset_top = -89.5
+offset_right = 208.5
+offset_bottom = 89.5
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="CanvasLayer/VBoxContainer" unique_id=2123820228]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_yxx3c")
+theme_override_font_sizes/font_size = 64
+text = "Game Over"
+
+[node name="Button" type="Button" parent="CanvasLayer/VBoxContainer" unique_id=422693458]
+layout_mode = 2
+theme_override_fonts/font = ExtResource("1_yxx3c")
+theme_override_font_sizes/font_size = 32
+text = "Respawn"
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=547076990]
+position = Vector2(-1.9999999, 0)
+scale = Vector2(20, 20)
+texture = ExtResource("2_ccer4")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1089128176]
+zoom = Vector2(2, 2)
+
+[connection signal="pressed" from="CanvasLayer/VBoxContainer/Button" to="." method="_on_button_pressed"]

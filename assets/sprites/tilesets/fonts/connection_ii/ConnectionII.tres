@@ -1,0 +1,9 @@
+[gd_resource type="DynamicFont" format=2]
+
+[ext_resource type="DynamicFontData" uid="uid://cvt01hpj5g656" path="res://assets/fonts/connection_ii/ConnectionII.otf" id="1"]
+
+[resource]
+
+size = 30
+font_data = ExtResource( 1 )
+
