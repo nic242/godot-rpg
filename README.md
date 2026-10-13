@@ -1,6 +1,6 @@
 # 2D RPG
 
-My first game, made in Godot 4. You move around a 2D world and fight slimes.
+My first game, made in Godot 4. You move around a 2D world and fight a slime.
 
 **[▶ Play in your browser](https://nicolaschung.itch.io/godot-rpg)**
 
